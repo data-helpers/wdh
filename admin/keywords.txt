@@ -1,0 +1,12 @@
+key search phrases with estimated volumes for googles eyword planner. Last updated: 27th July 2021
+
+1. holidays to russia (vol: 1k-10k, competiion: low, bid est: £0.39 to £1.11)
+2. travelling to russia (vol: 1k-10k, competiion: low, bid est: £0.43 to £1.14)
+3. russia tourism (vol: 100-1k, competiion: low, bid est: £0.78 to £1.46)
+4. visit russia (vol: 100-1k, competiion: low, bid est: £0.32 to £1.16)
+5. moscow tourism (vol: 100-1k, competiion: low, bid est: £0.45 to £2.65)
+6. holiday in russia (vol: 100-1k, competiion: low, bid est: £0.35 to £1.14)
+7. best places to visit in russia (vol: 100-1k, competiion: low, bid est: £0.40 to £1.12)
+8. st petersburg holidays (vol: , competiion: , bid est: £ to £)
+9. siberia holiday (vol: , competiion: , bid est: £ to £)
+10. holidays to sochi (vol: , competiion: , bid est: £ to £)

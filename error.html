@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<!-- basic document elements -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Travel Russia - Everything You Need To Know About Visiting Russia</title>
+	<meta name="description" content="Get All The Information You Need About Travelling To Russia. Russian Travel Restrictions. Visiting Moscow and Saint Petersburg.">
+	<meta name="author" content="Travel Russia">
+
+	<meta property="og:title" content="How To Get A Russian Visa">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://travel-russia.org.uk">
+	<meta property="og:description" content="Information About Holidays To Russia Including Moscow, St Petersburg, Lake Baikal and The Trans Siberian Express. Travel Documents You Will Need To Visit Russia.">
+	<meta property="og:image" content="russianvisa.png">
+
+	<link rel="icon" href="./images/favicon.ico">
+	<link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<link rel="stylesheet" href="./css/style.css?v=1.0">
+	<link rel="stylesheet" href="./css/error.css?v=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+	<!-- simpleLightbox -->
+	<link rel="stylesheet" href="./simpleLightbox/simpleLightbox.css?v=1.0">
+	<script src="./simpleLightbox/simpleLightbox.js" type="text/javascript"></script>
+	<!-- end of simpleLightbox --><!-- simpleLightbox -->
+	<link rel="stylesheet" href="./simpleLightbox/simpleLightbox.css?v=1.0">
+	<script src="./simpleLightbox/simpleLightbox.js" type="text/javascript"></script>
+	<!-- end of simpleLightbox -->
+	<!-- end of basic document elements -->
+	<!-- all pages js -->
+	<script src="./js/all-pages.js" type="text/javascript"></script>
+	<!-- end of all pages js -->
+	<!-- page specific js -->
+	<script>
+	jQuery(document).ready(function(){
+		
+		
+		
+		//end
+		
+		//getting template-parts
+        //header
+        jQuery.get("./template-parts/header.html", function(data){
+            jQuery("#header").html(data);
+        })
+        //end
+        
+        //menu
+        jQuery.get("./template-parts/menu.html", function(data){
+            jQuery("#wide-menu").html(data);
+        })
+        //end
+        
+        //footer links area
+        jQuery.get("./template-parts/footer-links-area.html", function(data){
+            jQuery("#footer-links-area").html(data);
+        })
+        //end
+
+        //footer links area
+        jQuery.get("./template-parts/footer.html", function(data){
+            jQuery("#footer").html(data);
+        })
+        //end
+        //end - getting template-parts
+		
+		loaderOff('Y');
+	})
+	//function declarations here
+
+	//end
+	</script>
+	<!-- end of page specific js -->
+</head>
+
+<body>
+	<!-- start of whole container -->
+	<div id="container">
+	<!-- start of header -->
+	<div id="header"><!-- this will be filled with the content of /template-parts/header.html --></div>
+	<!-- end of header -->
+	
+	<!-- start of content -->
+	<div id="content">
+	<div id="loader" class="">
+		<img src="./images/loader.gif" id="loader-img" title="page preloader" alt="three ball bouncing preloader">
+	</div>
+	<!-- wide menu -->
+	<div id="wide-menu" class="hide-this"><!-- this will be filled with the content of /template-parts/menu.html --></div>
+	<!-- end of wide menu -->
+	<div id="page-content">
+
+		<p>Page content here.</p>
+	</div>
+	</div>
+	<!-- end of content -->
+
+	<!-- links area -->
+	<div id="footer-links-area"><!-- this will be filled with the content of /template-parts/footer-links-area.html --></div>
+	<!-- end of links area -->
+	<!-- footer -->
+	<div id="footer"><!-- this will be filled with the content of /template-parts/footer.html --></div>
+	
+	<!-- end -->
+	</div>
+	<!-- end of container -->
+</body>
+
+</html>

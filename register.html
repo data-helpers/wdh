@@ -1,0 +1,144 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<!-- basic document elements -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Web Development by data-helpers.com - Website design, development and support services</title>
+	<meta name="description" content="Website ">
+	<meta name="author" content="BHPerfectGifts">
+
+	<meta property="og:title" content="Personalised Magnetic Lid Gift Boxes">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://bhperfectgifts.co.uk">
+	<meta property="og:description" content="Retail and Wholesale Personalised Gift Boxes With Magnetic Lid.">
+	<meta property="og:image" content="russianvisa.png">
+
+	<link rel="icon" href="/images/favicon.ico">
+	<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/images/nextGen/apple-touch-icon.webp">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	<link rel="stylesheet" href="/css/style.css?v=1.0.4">
+    <link rel="stylesheet" href="/css/register.css?v=1.0.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+	<!-- simpleLightbox -->
+	<link rel="stylesheet" href="/simpleLightbox/simpleLightbox.css?v=1.0">
+	<script src="/simpleLightbox/simpleLightbox.js" type="text/javascript"></script>
+	<!-- end of simpleLightbox -->
+	<!-- end of basic document elements -->
+	<!-- all pages js -->
+	<script src="/js/all-pages.js?v=1.0.1" type="text/javascript"></script>
+	<!-- end of all pages js -->
+	<!-- page specific js -->
+    <script src="/js/register.js?v=1.0.0" type="text/javascript"></script>
+	<script>
+	jQuery(document).ready(function(){
+
+
+        new SimpleLightbox({elements: '.imageGallery1 a'});
+        
+        //getting template-parts
+
+        //header
+        jQuery.get("/template-parts/header.html?v=1.0.8", function(data){
+            jQuery("#header").html(data);
+        })
+        //end
+
+        //footer
+        jQuery.get("/template-parts/footer.html", function(data){
+            jQuery("#footer").html(data);
+        })
+        //end
+        //end - getting template-parts
+        
+	})
+	//function declarations here
+
+   
+	
+	//end
+	</script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/615092fcd326717cb683667b/1fghbsasq';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+	<!-- end of page specific js -->
+</head>
+
+<body>
+	<!-- start of whole container -->
+	<div id="container">
+	<!-- start of header -->
+	<div id="header"><!-- content will be placed here from the template part --></div>
+	<!-- end of header -->
+		
+	<!-- start of content -->
+	<div id="page-content" class="hide-this">
+        <h1>Next Steps</h1>
+        <span class="page-splitter"></span>
+        <div class="row" id="main-body">
+            <div class="col col-left">
+                <p>
+                    <strong>let's take the first step</strong>. We will help make your new website a success, so let's have a no obligation chat and 
+                    begin that process.  typically from first chat to go-live it takes 2-3 weeks for your website to go live.  Here's what happens next...
+                </p>
+                <div class="step" id="step1">
+                    <i class="far fa-comment-dots icon"></i><span class="step-header">Discuss</span>
+                    <p>
+                        We will discuss your needs and wishes and ensure we know exactly what you're after.
+                    </p>
+                </div>
+                <div class="step" id="step2">
+                    <i class="fas fa-hands-helping icon"></i><span class="step-header">Agree</span>
+                    <p>
+                        We'll confirm everything with you and when you're happy you confirm your agreement.
+                    </p>
+                </div>
+                <div class="step" id="step3">
+                    <i class="fas fa-laptop-code icon"></i><span class="step-header">Deliver</span>
+                    <p>
+                        We deliver your new website and get you fully launched.  We manage your website and will quickly fix any problems.
+                    </p>
+                </div>
+            </div>
+            <div class="col col-right">
+                <section id="form">
+                    <input type="hidden" id="other-info">
+                    <input type="text" id="name" placeholder="* Full Name">
+                    <input type="text" id="email" placeholder="* Email">
+                    <input type="text" id="phone" placeholder="Phone">
+                    <input type="text" id="company" placeholder="Company">
+                    <textarea rows="4" id="msg" placeholder="Say hi, we'll come back to you very soon"></textarea>
+                    <input type="text" id="security" placeholder="* Security question: what day comes after monday?">
+                    <button type="button" id="submit" alt="submit button" title="we will contact you to discuss your needs">Book Your Consultation<i class="fas fa-arrow-right"></i></button>
+                    <p>
+                        <i class="fas fa-lock"></i> We do not share your information
+                    </p>
+                    <div class="clearfix"></div>
+                </section>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+	</div>
+	<!-- end of content -->
+    
+	<!-- footer -->
+	<div id="footer"><!-- this will be filled with the content of /template-parts/footer.html --></div>
+	
+	<!-- end of container -->
+</body>
+
+</html>

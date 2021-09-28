@@ -1,0 +1,106 @@
+.search-result {
+    border: 1px solid #ccc; /* IE backup */
+    border: 1px solid var(--ceegrey);
+    padding: 20px;
+    background-color: #cae0f7; /* IE backup */
+    background-color: var(--lightblue);
+    background: var(--lightblue);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.search-result {
+    box-sizing: border-box;
+    height: 150px;
+}
+.search-result-title {
+    color: #0b6db4; /* IE backup */
+    color: var(--bluetext);
+}
+.search-result-title, .search-result-short-description {
+    margin: 0;
+    padding: 0;
+}
+.search-result-short-description {
+    margin: 5px 0 20px 0;
+}
+#no-search {
+    color: #0b6db4; /* IE backup */
+    color: var(--bluetext);
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.search-result-link {
+    background: #c70000; /* IE backup */
+    background: var(--red);
+    background-color: var(--red);
+    color: #fff; /* IE backup */
+    color: var(--white);
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.search-result-link:hover {
+    opacity: 0.8;
+}
+.featured::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #3498db; /* IE backup */
+    background: var(--searchButtonBlue);
+    background-color: var(--searchButtonBlue);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 45px;
+    box-shadow: 0 0 10px #0b6db4; /* IE backup */
+    box-shadow: 0 0 10px var(--bluetext);
+}
+.top-match::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: green; /* IE backup */
+    background: var(--green);
+    background-color: var(--green);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 45px;
+    box-shadow: 0 0 10px green; /* IE backup */
+    box-shadow: 0 0 10px var(--green);
+}
+.fa.fa-share-alt {
+    float: right;
+    background: #fff; /* IE backup */
+    background: var(--white);
+    background-color: var(--white);
+    color: #0b6db4; /* IE backup */
+    color: var(--bluetext);
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border: 1px solid #ccc; /* IE backup */
+    border: 1px solid var(--ceegrey);
+}
+@media screen and (min-width:1161px){
+    .search-result {
+        float: left;
+        width: calc(50% - 20px);
+        margin: 10px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1160px) {
+
+}
+@media screen and (min-width:460px) and (max-width:799px) {
+	
+}
+@media screen and (max-width:459px) {
+	
+}

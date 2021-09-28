@@ -1,0 +1,40 @@
+.main-index {
+    display: block;
+}
+.main-index > a {
+    line-height: 25px;
+    text-decoration: none;
+    font-size: 1.05em;
+}
+a.parent-link {
+    margin-top: 20px;
+    color: #000; /* IE backup */
+    color: var(--black);
+}
+a.parent-link:first-child {
+    margin-top: 0;
+}
+a.child-link {
+    margin-left: 20px;
+}
+a.grandchild-link {
+    margin-left: 40px;
+}
+a.child-link:before, a.grandchild-link:before {
+    content: ">";
+    margin-right: 7px;
+    color: #000; /* IE backup */
+    color: var(--black);
+}
+@media screen and (min-width:1161px){
+    
+}
+@media screen and (min-width:800px) and (max-width:1160px) {
+
+}
+@media screen and (min-width:460px) and (max-width:799px) {
+	
+}
+@media screen and (max-width:459px) {
+	
+}

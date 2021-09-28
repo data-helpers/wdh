@@ -1,0 +1,173 @@
+{
+    "questions": {
+        "question1": {
+            "heading": "Do you need an eCommerce site?",
+            "text": "Will you sell products or services on this website that you need to take online payments for?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "question1a",
+                    "setValue": "eshop:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "question2",
+                    "setValue": "eshop:no"
+                }
+            }
+        }, 
+        "question1a": {
+            "heading": "Number of products?",
+            "text": "Approximately how many different products or services will you sell on your website?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "1 to 5",
+                    "destination": "question1b",
+                    "setValue": "prodqty:5"
+                },
+                "option2": {
+                    "buttonLabel": "5 to 20",
+                    "destination": "question1b",
+                    "setValue": "prodqty:20"
+                },
+                "option3": {
+                    "buttonLabel": "Over 20",
+                    "destination": "question1b",
+                    "setValue": "prodqty:20+"
+                }
+            }
+        },
+        "question1b": {
+            "heading": "Preferred Platform?",
+            "text": "Do you have a preferred platform for your site?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "No Preference",
+                    "destination": "band2",
+                    "setValue": "platform:none"
+                },
+                "option2": {
+                    "buttonLabel": "Wordpress",
+                    "destination": "band3",
+                    "setValue": "platform:wordpress"
+                },
+                "option3": {
+                    "buttonLabel": "Shopify",
+                    "destination": "band3",
+                    "setValue": "platform:shopify"
+                },
+                "option4": {
+                    "buttonLabel": "Squarespace",
+                    "destination": "band3",
+                    "setValue": "platform:squarespace"
+                },
+                "option5": {
+                    "buttonLabel": "Wix",
+                    "destination": "band3",
+                    "setValue": "platform:wix"
+                },
+                "option6": {
+                    "buttonLabel": "Other",
+                    "destination": "band3",
+                    "setValue": "platform:other"
+                }
+            }
+        },
+        "question2": {
+            "heading": "Company Website",
+            "text": "Do you need a company website to help promote your business?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "question2a",
+                    "setValue": "compsite:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "question3",
+                    "setValue": "compsite:no"
+                }
+            }
+        },
+        "question2a": {
+            "heading": "Portfolio",
+            "text": "Do you need a portfolio to show your work to potential customers?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "question2b",
+                    "setValue": "portfolio:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "question2c",
+                    "setValue": ""
+                }
+            }
+        },
+        "question2b": {
+            "heading": "Integrations",
+            "text": "Do you need to integrate other systems or services with this site, such as; calendar bookings or APIs?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "band2",
+                    "setValue": "integrations:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "band2",
+                    "setValue": "integrations:no"
+                }
+            }
+        },
+        "question2c": {
+            "heading": "Integrations",
+            "text": "Do you need to integrate other systems or services with this site, such as; calendar bookings or APIs?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "band2",
+                    "setValue": "integrations:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "band1",
+                    "setValue": "integrations:no"
+                }
+            }
+        },
+        "question3": {
+            "heading": "Application or SAAS",
+            "text": "Will this website host a web application or SAAS?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "contact",
+                    "setValue": "saas:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "question4",
+                    "setValue": "saas:no"
+                }
+            }
+        },
+        "question4": {
+            "heading": "Rebuild or Migration",
+            "text": "Do you need a redesign, rebuild or migration of an existing website?",
+            "options": {
+                "option1": {
+                    "buttonLabel": "Yes",
+                    "destination": "contact",
+                    "setValue": "rebuild:yes"
+                },
+                "option2": {
+                    "buttonLabel": "No",
+                    "destination": "contact",
+                    "setValue": "rebuild:no"
+                }
+            }
+        }
+    }
+}
